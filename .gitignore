@@ -1,0 +1,37 @@
+# Compiled files
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+
+# logs
+*.log
+
+# Directories
+.terraform/
+.vagrant/
+infrastructure-live-v1/dev/vpc/.terraform/*
+infrastructure-live-v1/staging/vpc/.terraform/*
+
+/d/projects/terragrunt-adv/terragrunt-demo/infrastructure-live-v1/dev/vpc/.terraform/*
+/d/projects/terragrunt-adv/terragrunt-demo/infrastructure-live-v1/staging/vpc/.terraform/*
+
+
+# SSH Keys
+*.pem
+
+# Backup files
+*.bak
+
+# Ignored Terraform files
+*gitignore*.tf
+
+# Ignore Mac .DS_Store files
+.DS_Store
+
+# Ignored vscode files
+.vscode/
+
+# Ignore Any Generated JSON Files
+
+# Sentinel runtime directory
+.sentinel
